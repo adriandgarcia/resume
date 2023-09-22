@@ -21,23 +21,30 @@ You will find this is far easier than the opposite task of using CSS to cram you
 html, body {
     /* Sets default font-size to 16px, ensuring 1em = 16px; */
     font-size: 16px;
-}
-
-*{font-family: 'Barlow', sans-serif;}
-
-body {
+    font-family: 'Raleway', sans-serif;
     background-color: cornsilk;
 }
 
+/*
+body {
+    margin: 20px;
+    margin-top: 20px;
+}
+*/
+
 .container {
-        margin: 20px;
+    margin: 20px;
+    margin-top: 20px;
 }
 
-h1, .info {text-align:center;}
+.intro{text-align: center;}
 
-img{margin:auto;
-    margin-top: 20px;
-    display: block;}
+p {margin-bottom: -10px}
+
+img{margin: auto;
+display: block;
+width:100%;
+margin-top:20px;}
 
 /*********************************************************************
   YOUR TABLET/DESKTOP STYLES GO HERE
@@ -46,13 +53,11 @@ img{margin:auto;
     /* Any adjustments for tablets and larger go here.
     Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
 
-.container {
-    padding: 400px;
-    padding-top: 0px;
-    padding-top: 0px;
+
+
+
+
 }
-
-
 
 /*********************************************************************
   YOUR DESKTOP-ONLY STYLES GO HERE
